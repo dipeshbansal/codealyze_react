@@ -7,10 +7,13 @@ import EditProduct from './components/EditProduct'
 class App extends Component {
   render() { 
     return ( 
+      
+      
       <Router>
         <Route exact path="/" component={Home}/>
         <Route path='/edit-product' component={EditProduct}/>
       </Router>
+      
      );
   }
 }
